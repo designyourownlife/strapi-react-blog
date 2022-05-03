@@ -69,8 +69,6 @@ export default function Category() {
 
   const category = data.category.data;
 
-  console.log(category)
-
   return (
     <React.Fragment>
       <h2 className="heading--category">{category.attributes.name}</h2>
